@@ -15,9 +15,7 @@ import model.ProductManagement.ProductCatalog;
  */
 public class Simulation extends javax.swing.JFrame {
     int totalProfit = 0;
-    /**
-     * Creates new form Reports
-     */
+
     public Simulation( Map<Product, Integer> prod_actual_price) {
         initComponents();
         generateReport(prod_actual_price);
