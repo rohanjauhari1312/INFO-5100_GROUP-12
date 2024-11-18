@@ -424,19 +424,7 @@ Map<String, ArrayList<Product>>report = new HashMap<>();
         selectedSupplier = cmbSupplier.getSelectedItem().toString();
         if (selectedSupplier == "Supplier 1"){
             cmbSupplier.setEnabled(false);
-//            products1 = new ProductCatalog();
-//            s1p1 = products1.newProduct("s1p1",10, 25, 15);      // fp = 10, tp = 15, cp = 25
-//            s1p2 = products1.newProduct("s1p2",20, 35, 25);      // fp = 20, tp = 25, cp = 35
-//            s1p3 = products1.newProduct("s1p3",30, 45, 35);      // fp = 30, tp = 35, cp = 45
-//            s1p4 = products1.newProduct("s1p4",40, 55, 45);      // fp = 40, tp = 45, cp = 55
-//            s1p5 = products1.newProduct("s1p5",50, 65, 55);      // fp = 50, tp = 55, cp = 65
-//            s1p6 = products1.newProduct("s1p6",60, 75, 65);      // fp = 60, tp = 65, cp = 75
-//            s1p7 = products1.newProduct("s1p7",70, 85, 75);      // fp = 70, tp = 75, cp = 85
-//            s1p8 = products1.newProduct("s1p8",80, 95, 85);      // fp = 80, tp = 85, cp = 95
-//            s1p9 = products1.newProduct("s1p9",90, 105, 95); // fp = 90, tp = 95, cp = 105
-//            s1p10 = products1.newProduct("s1p10",100, 115, 105); // fp = 100, tp = 105, cp = 115
-            
-//            txtSales.setText("Sales person 1");
+
             
             PersonDirectory pd = new PersonDirectory();
             Person p1=pd.newPerson("s1c1");
