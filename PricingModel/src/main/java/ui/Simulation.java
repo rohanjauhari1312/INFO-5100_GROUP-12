@@ -11,7 +11,7 @@ import model.ProductManagement.ProductCatalog;
 
 /**
  *
- * @author tejasvenkatesh
+ * @author rohanjauhari
  */
 public class Simulation extends javax.swing.JFrame {
     int totalProfit = 0;
